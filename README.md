@@ -17,13 +17,26 @@ A lightweight Python utility that automatically switches between multiple API ke
 
 ### Installation
 
+#### From Git Repository (Recommended)
+```bash
+# Install directly from GitHub
+pip install git+https://github.com/kenyo3026/moochswitcher.git
+
+# Or install a specific branch/tag
+pip install git+https://github.com/kenyo3026/moochswitcher.git@main
+```
+
+#### From Source
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/moochswitcher.git
+git clone https://github.com/kenyo3026/moochswitcher.git
 cd moochswitcher
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Or install in development mode
+pip install -e .
 ```
 
 **Dependencies:**
