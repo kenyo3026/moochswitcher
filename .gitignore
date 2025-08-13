@@ -1,0 +1,8 @@
+# __pycache__
+__pycache__
+
+# jupyter
+*.ipynb
+
+# directories
+configs/*
